@@ -1,0 +1,10 @@
+
+{{{
+ # git clone http://github.com/erning/php-mmseg.git php-mmseg
+ # cd php-mmseg
+ # phpize
+ # ./configure
+ # make
+ # cat sample.php | php -d "extension=modules/mmseg.so"
+}}}
+
