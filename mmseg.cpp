@@ -13,7 +13,7 @@ extern "C" {
 int le_mmseg_algor; 
 #define PHP_MMSEG_ALGORITHM "MMSeg Algorithm"
 
-static function_entry mmseg_functions[] = {
+static zend_function_entry mmseg_functions[] = {
 	PHP_FE(mmseg_load_chars, NULL)
     PHP_FE(mmseg_load_words, NULL)
     PHP_FE(mmseg_dic_add, NULL)
